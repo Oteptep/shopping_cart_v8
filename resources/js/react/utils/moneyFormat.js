@@ -1,0 +1,1 @@
+export default (amount = 0, locale = 'en-PH', currency = 'PHP') => new Intl.NumberFormat(locale, { style: 'currency', currency }).format(amount);
