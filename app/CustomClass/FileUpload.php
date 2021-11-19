@@ -2,7 +2,7 @@
 
 namespace App\CustomClass;
 
-use App\Product;
+use App\Models\Product;
 
 class FileUpload {
 
